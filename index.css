@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.secao-topo {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  background-color: rgb(236, 232, 232);
+  margin-bottom: 50px;
+  align-items: center;
+  padding: 20px;
+}
+
+.secao-topo img {
+  width: 150px;
+  display: flex;
+}
+
+.secao-topo-links {
+  display: flex;
+  gap: 20px;
+}
+
+.secao-topo {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.secao-topo-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  border-right: 1px solid;
+  padding-right: 10px;
+}
+
+.secao-topo-links a:hover {
+  border: 1px solid;
+}
+
+.secao-topo button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.secao-topo button:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.704);
+}
+
+.cards {
+  min-height: 50vh;
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.container-cards div {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #f6f7f8;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgb(145, 145, 145);
+}
+
+.container-cards p {
+  text-align: center;
+}
+
+.container-cards h3 {
+  text-align: center;
+}
+
+.container-cards span {
+  font-weight: bold;
+}
+
+.cards h1 {
+  margin: 30px;
+}
+
+.secao-background-capa {
+  height: 700px;
+  background-image: url(imgs/WhatsApp\ Image\ 2024-05-06\ at\ 13.13.47.jpeg);
+  background-size: cover;
+  margin: 40px;
+}
+
+.secao-background-divisao {
+  background-image: url(imgs/professor.jpeg);
+  padding: 100px 0;
+  text-align: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
